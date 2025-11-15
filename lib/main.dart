@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'mood_mirror_page.dart';
 
 void main() {
@@ -15,9 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Mood Mirror',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF667EEA)),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple.shade700),
         useMaterial3: true,
-        fontFamily: 'SF Pro Display',
       ),
       home: const MoodMirrorPage(),
     );
