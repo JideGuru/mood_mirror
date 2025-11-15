@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gemma/core/api/flutter_gemma.dart';
 
 import 'mood_mirror_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  FlutterGemma.initialize();
   runApp(const MyApp());
 }
 
