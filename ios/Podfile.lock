@@ -2,7 +2,7 @@ PODS:
   - background_downloader (0.0.1):
     - Flutter
   - Flutter (1.0.0)
-  - flutter_gemma (0.11.8):
+  - flutter_gemma (0.11.11):
     - Flutter
     - MediaPipeTasksGenAI (= 0.10.24)
     - MediaPipeTasksGenAIC (= 0.10.24)
@@ -64,7 +64,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   background_downloader: a05c77d32a0d70615b9c04577aa203535fc924ff
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  flutter_gemma: d92bb658c075465c691957d242ad13dd55953e44
+  flutter_gemma: 145343dd7df2e2acc17d6ddd91a581176d03b0e2
   large_file_handler: e3686e246052b0f03955789d3a04604574f80afe
   MediaPipeTasksGenAI: 076ba7032a6e9da16db9c7cf0c3b67c751c18bc1
   MediaPipeTasksGenAIC: ec35d9f431f6a6b651a0bc9f67a4ed149ffa575c

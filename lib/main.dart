@@ -3,9 +3,9 @@ import 'package:flutter_gemma/core/api/flutter_gemma.dart';
 
 import 'mood_mirror_page.dart';
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  FlutterGemma.initialize();
+  await FlutterGemma.initialize();
   runApp(const MyApp());
 }
 
